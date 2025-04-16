@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; 
+    margin: 0;     
+    background-color: #f4f4f4;  
+}
+
+input {
+    width: 220px;
+    height: 40px;
+    text-align: right;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.groupButton {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    width: 240px; 
+    margin-top: 10px; 
+}
+
+.groupButton button {
+    width: 50px;   
+    height: 50px;  
+    font-size: 20px; 
+    border: none;  
+    border-radius: 5px; 
+    background-color: #a1a1a1; 
+    color: white;  
+    cursor: pointer; 
+}
+
+.groupButton button:hover {
+    background-color: #727171; 
+}
+
+
+.submit {
+    grid-column: span 4; 
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap : 10px
+}
